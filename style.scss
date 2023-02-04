@@ -8,6 +8,12 @@
 // Bootstrap
 @import 'bootstrap/scss/bootstrap';
 @import '@fortawesome/fontawesome-free/scss/regular.scss';
+@import '@fortawesome/fontawesome-free/css/all.css';
+
+body{
+	font-family: Montserrat; 
+	font-size: 1rem;
+}
 
 
 a {
@@ -20,7 +26,7 @@ a:hover {
 }
 
 body {
-
+	background-color: #EEEEEE;
 }
 
 .text-gepe{
@@ -28,3 +34,99 @@ body {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+
+.colores div{
+	min-height: 3rem;
+	margin-bottom: 1rem;
+}
+
+.colores div:first-child{
+	min-width: 75vw;
+}
+
+.bg-primario{
+	background-color: $primario;
+}
+
+.bg-secundario{
+	background-color: $secundario;
+}
+
+.bg-complementario{
+	background-color: $complementario;
+}
+
+.bg-acento{
+	background-color: $acento;
+}
+
+.border-primario{
+	border: 5px solid $primario;
+}
+
+.border-secundario{
+	border: 5px solid $secundario;
+}
+
+.border-complementario{
+	border: 5px solid $complementario;
+}
+
+.border-acento{
+	border: 5px solid $acento;
+}
+
+.shadow-primario{
+  -webkit-box-shadow: 0px 0px 10px 0px $primario !important;
+  -moz-box-shadow: 0px 0px 10px 0px $primario !important;
+  box-shadow: 0px 0px 10px 0px $primario !important;
+}
+
+.shadow-secundario{
+  -webkit-box-shadow: 0px 0px 10px 0px $secundario !important;
+  -moz-box-shadow: 0px 0px 10px 0px $secundario !important;
+  box-shadow: 0px 0px 10px 0px $secundario !important;
+}
+
+.shadow-complementario{
+  -webkit-box-shadow: 0px 0px 10px 0px $complementario !important;
+  -moz-box-shadow: 0px 0px 10px 0px $complementario !important;
+  box-shadow: 0px 0px 10px 0px $complementario !important;
+}
+
+.shadow-acento{
+  -webkit-box-shadow: 0px 0px 10px 0px $acento !important;
+  -moz-box-shadow: 0px 0px 10px 0px $acento !important;
+  box-shadow: 0px 0px 10px 0px $acento !important;
+}
+
+div.footer-container *{
+  background-color: $primario;
+}
+
+footer.public-layout-footer *{
+  color: white !important;
+}
+
+.public-layout-footer .redes, .public-layout-footer .redes *, .public-layout-footer .copy, .public-layout-footer .copy *{
+  background-color: $complementario;
+}
+
+.public-layout-footer .links{
+  background-color: $primario;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
