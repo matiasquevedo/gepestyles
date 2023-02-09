@@ -148,6 +148,81 @@ footer.public-layout-footer *{
 }
 
 
+.btn-icon-primario{
+  width:56px;
+  height:56px;
+  background-color: $primario;
+  color: $secundario;
+  border-radius:50px;
+  text-align:center;
+  font-size:37px;
+
+
+  display: flex;
+  justify-content: center !important;
+  align-items: center !important;
+}
+
+.btn-icon-primario:hover{
+  background-color: $acento;
+}
+
+.btn-icon-primario i{
+  text-decoration: none;
+  color: white;
+}
+
+.btn-icon-acento{
+  width:56px;
+  height:56px;
+  background-color: $acento;
+  color: $secundario;
+  border-radius:50px;
+  text-align:center;
+  font-size:37px;
+
+
+  display: flex;
+  justify-content: center !important;
+  align-items: center !important;
+}
+
+.btn-icon-acento:hover{
+  background-color: $primario;
+}
+
+.btn-icon-acento i{
+  text-decoration: none;
+  color: white;
+}
+
+
+.btn-icon-complementario{
+  width:56px;
+  height:56px;
+  background-color: $complementario;
+  color: $secundario;
+  border-radius:50px;
+  text-align:center;
+  font-size:37px;
+
+
+  display: flex;
+  justify-content: center !important;
+  align-items: center !important;
+}
+
+.btn-icon-complementario:hover{
+  background-color: $primario;
+}
+
+.btn-icon-complementario i{
+  text-decoration: none;
+  color: white;
+}
+
+
+
 
 
 
