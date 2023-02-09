@@ -2,7 +2,11 @@
 $body-bg: #f8fafc;
 
 // Typography
+
+
 $font-family-sans-serif: 'Nunito', sans-serif;
+$font-principal: 'MadeTommySoft', sans-serif;
+$font-secundaria: 'Akshar', sans-serif;
 $font-size-base: 0.9rem;
 $line-height-base: 1.6;
 
@@ -20,7 +24,7 @@ $cyan: #6cb2eb;
 
 $primario: #84b2c2ff;
 $secundario: #ffffffff;
-$complementario: #606062ff;
+$complementario: #3a3a3aff;
 $acento: #ff0a8dff;
 
 
@@ -43,3 +47,19 @@ $radical-red-rgb: rgba(255, 65, 105, 1);
 $ruby-rgb: rgba(207, 49, 96, 1);
 $bright-navy-blue-rgb: rgba(37, 112, 196, 1);
 $yale-blue-rgb: rgba(2, 78, 166, 1);
+
+
+// Typography import
+
+@import url('https://fonts.googleapis.com/css2?family=Akshar&display=swap');
+
+@font-face {
+    font-family: MadeTommySoft;
+    src: url("/fonts/made_tommy/MADE_TOMMY_Regular.otf") format("opentype");
+}
+
+
+
+
+
+
