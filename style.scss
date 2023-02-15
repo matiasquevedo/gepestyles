@@ -13,14 +13,20 @@
 
 
 
+
 body > *{
+  font-family: $font-principal;  
+  font-size: 1rem;
+}
+
+div.gepestyles > *{  
 	font-family: Montserrat; 
-	font-size: 1rem;
+  font-size: 1rem;
 }
 
 
 
-a {
+div.gepestyles a {
   font-weight: 500;
   color: #646cff;
   text-decoration: inherit;
