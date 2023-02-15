@@ -1,12 +1,15 @@
 {
   "name": "gepestyles",
-  "version": "1.7.0",
+  "version": "1.8.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview"
   },
+  "files": [
+    "dist/style.css"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/matiasquevedo/gepestyles"

@@ -1,17 +1,17 @@
 // vite.config.js
 import path from "path";
+import { defineConfig } from 'vite'
 
-export default {
+export default defineConfig({
   // config options
-  root: './src',
   build:{
-  	outDir: '../dist',
-  	assetsDir:'css',
-  	rollupOptions: {
-  	  output: {
-  	    assetFileNames: "css/gepestyles[extname]",
-  	  },
+  	lib:{
+  		entry: [path.resolve(__dirname, 'src/main.js'),path.resolve(__dirname, 'src/style.scss')],
+  		name: 'gepestyles',
+  		// Se agregará la extension apropiada.
+  		fileName: 'gepestyles',
   	},
+  	outDir: './dist'
   },
   resolve: {
     alias: [
@@ -19,4 +19,4 @@ export default {
     ],
   },
 
-}
+})
