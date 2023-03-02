@@ -52,11 +52,17 @@ $yale-blue-rgb: rgba(2, 78, 166, 1);
 
 // Typography import
 
-@import url('https://fonts.googleapis.com/css2?family=Akshar&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Akshar:wght@300;400;500;600;700&display=swap');
 
 @font-face {
     font-family: MadeTommySoft;
-    src: url("@/fonts/made_tommy/MADE_TOMMY_Regular.otf") format("opentype");
+    src: url("@/fonts/made_tommy/MADE_TOMMY_Regular.otf") format("opentype") font-weight-normal;
+}
+
+@font-face {
+    font-family: MadeTommySoft;
+    src: url("@/fonts/made_tommy/MADE_TOMMY_Light.otf") format("opentype");
+    font-weight: 100 400;
 }
 
 

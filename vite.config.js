@@ -6,12 +6,16 @@ export default defineConfig({
   // config options
   build:{
   	lib:{
-  		entry: [path.resolve(__dirname, 'src/main.js'),path.resolve(__dirname, 'src/style.scss')],
+  		entry: [
+        path.resolve(__dirname, 'src/main.js'),
+        path.resolve(__dirname, 'src/style.scss'),
+      ],
   		name: 'gepestyles',
   		// Se agregará la extension apropiada.
   		fileName: 'gepestyles',
   	},
-  	outDir: './dist'
+  	outDir: '../dist'
+
   },
   resolve: {
     alias: [

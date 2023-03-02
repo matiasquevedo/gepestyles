@@ -130,10 +130,22 @@ footer.public-layout-footer *{
 
 .text-principal{
   font-family: $font-principal !important; 
+  font-weight: 700;
+}
+
+.text-principal-light{
+  font-family: $font-principal !important; 
+  font-weight: 300;
 }
 
 .text-secundaria{
   font-family: $font-secundaria !important; 
+  font-weight: 400;
+}
+
+.text-secundaria-light{
+  font-family: $font-secundaria !important; 
+  font-weight: 300;
 }
 
 
