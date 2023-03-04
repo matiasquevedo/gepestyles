@@ -56,15 +56,33 @@ $yale-blue-rgb: rgba(2, 78, 166, 1);
 
 @font-face {
     font-family: MadeTommySoft;
-    src: url("@/fonts/made_tommy/MADE_TOMMY_Regular.otf") format("opentype") font-weight-normal;
+    src: url("@/fonts/made_tommy/MADE_TOMMY_Regular.otf") format("opentype");
+    font-weight: 500 600;
+}
+
+@font-face {
+    font-family: MadeTommySoft;
+    src: url("@/fonts/made_tommy/MADE_TOMMY_Thin.otf") format("opentype");
+    font-weight: 100 200;
 }
 
 @font-face {
     font-family: MadeTommySoft;
     src: url("@/fonts/made_tommy/MADE_TOMMY_Light.otf") format("opentype");
-    font-weight: 100 400;
+    font-weight: 300 400;
 }
 
+@font-face {
+    font-family: MadeTommySoft;
+    src: url("@/fonts/made_tommy/MADE_TOMMY_Medium.otf") format("opentype");
+    font-weight: 700 800;
+}
+
+@font-face {
+    font-family: MadeTommySoft;
+    src: url("@/fonts/made_tommy/MADE_TOMMY_Bold.otf") format("opentype");
+    font-weight: 900;
+}
 
 
 
