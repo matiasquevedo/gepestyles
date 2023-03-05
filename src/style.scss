@@ -1,6 +1,12 @@
+div.caca{
+  background-color: red;
+}
+
+
 //Fonts
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;469;500;600;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
 
 
 // Variables
@@ -55,6 +61,40 @@ body {
 .colores div:first-child{
 	min-width: 75vw;
 }
+
+// colores
+// colores
+// colores
+// colores
+// colores
+// colores
+// colores
+// colores
+// colores
+// colores
+// colores
+// colores
+// colores
+// colores
+// colores
+// colores
+// colores
+// colores
+// colores
+// colores
+// colores
+// colores
+// colores
+// colores
+// colores
+// colores
+// colores
+// colores
+// colores
+// colores
+// colores
+// colores
+// colores
 
 .bg-primario{
 	background-color: $primario;
@@ -128,14 +168,50 @@ footer.public-layout-footer *{
   background-color: $primario;
 }
 
+// texto
+// texto
+// texto
+// texto
+// texto
+// texto
+// texto
+// texto
+// texto
+// texto
+// texto
+// texto
+// texto
+// texto
+// texto
+// texto
+// texto
+// texto
+// texto
+// texto
+// texto
+// texto
+// texto
+// texto
+// texto
+// texto
+// texto
+// texto
+// texto
+// texto
+// texto
+// texto
+// texto
+
+
+
 .text-principal{
   font-family: $font-principal !important; 
-  font-weight: 700;
+  font-weight: 500;
 }
 
 .text-principal-light{
   font-family: $font-principal !important; 
-  font-weight: 300;
+  font-weight: 100;
 }
 
 .text-secundaria{
@@ -166,10 +242,66 @@ footer.public-layout-footer *{
 }
 
 
-.btn-icon-primario{
+
+//Buttons
+//Buttons
+//Buttons
+//Buttons
+//Buttons
+//Buttons
+//Buttons
+//Buttons
+//Buttons
+//Buttons
+//Buttons
+//Buttons
+//Buttons
+//Buttons
+//Buttons
+//Buttons
+//Buttons
+//Buttons
+//Buttons
+//Buttons
+//Buttons
+//Buttons
+//Buttons
+//Buttons
+//Buttons
+//Buttons
+//Buttons
+//Buttons
+//Buttons
+//Buttons
+//Buttons
+//Buttons
+//Buttons
+
+.btn.btn-icon-primario{
   width:56px;
   height:56px;
   background-color: $primario;
+  color: $secundario;
+  border-radius:50px;
+  border-color: #fff0;
+  text-align:center;
+  font-size:37px;
+
+
+  display: flex;
+  justify-content: center !important;
+  align-items: center !important;
+}
+
+.btn.btn-icon-primario:hover{
+  background-color: $acento;
+}
+
+
+.btn.btn-icon-acento{
+  width:56px;
+  height:56px;
+  background-color: $acento;
   color: $secundario;
   border-radius:50px;
   text-align:center;
@@ -181,41 +313,13 @@ footer.public-layout-footer *{
   align-items: center !important;
 }
 
-.btn-icon-primario:hover{
-  background-color: $acento;
-}
-
-.btn-icon-primario i{
-  text-decoration: none;
-  color: white;
-}
-
-.btn-icon-acento{
-  width:56px;
-  height:56px;
-  background-color: $acento;
-  color: $secundario;
-  border-radius:50px;
-  text-align:center;
-  font-size:37px;
-
-
-  display: flex;
-  justify-content: center !important;
-  align-items: center !important;
-}
-
-.btn-icon-acento:hover{
+.btn.btn-icon-acento:hover{
   background-color: $primario;
 }
 
-.btn-icon-acento i{
-  text-decoration: none;
-  color: white;
-}
 
 
-.btn-icon-complementario{
+.btn.btn-icon-complementario{
   width:56px;
   height:56px;
   background-color: $complementario;
@@ -230,14 +334,18 @@ footer.public-layout-footer *{
   align-items: center !important;
 }
 
-.btn-icon-complementario:hover{
+.btn.btn-icon-complementario:hover{
   background-color: $primario;
 }
 
-.btn-icon-complementario i{
+.btn.btn-icon-primario i,
+.btn.btn-icon-acento i, 
+.btn.btn-icon-complementario i{
   text-decoration: none;
   color: white;
 }
+
+
 
 
 

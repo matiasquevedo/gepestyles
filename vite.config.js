@@ -14,7 +14,7 @@ export default defineConfig({
   		// Se agregará la extension apropiada.
   		fileName: 'gepestyles',
   	},
-  	outDir: '../dist'
+  	outDir: 'dist'
 
   },
   resolve: {

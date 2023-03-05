@@ -24,9 +24,11 @@ $cyan: #6cb2eb;
 
 $blanco: #ffffffff;
 $primario: #3b3a3aff;
-$secundario: #57aeb7ff;
+$secundario: #258A95ff;
 $complementario: #492681ff;
-$acento: #144659ff;
+$acento: #56adb5ff;
+
+
 
 
 /* SCSS HEX */
@@ -55,33 +57,38 @@ $yale-blue-rgb: rgba(2, 78, 166, 1);
 @import url('https://fonts.googleapis.com/css2?family=Akshar:wght@300;400;500;600;700&display=swap');
 
 @font-face {
-    font-family: MadeTommySoft;
+    font-family: 'MadeTommySoft';
     src: url("@/fonts/made_tommy/MADE_TOMMY_Regular.otf") format("opentype");
-    font-weight: 500 600;
+    font-weight: 500;
+    font-style: normal;
 }
 
 @font-face {
-    font-family: MadeTommySoft;
+    font-family: 'MadeTommySoft';
     src: url("@/fonts/made_tommy/MADE_TOMMY_Thin.otf") format("opentype");
-    font-weight: 100 200;
+    font-weight: 100;
+    font-style: normal;
 }
 
 @font-face {
-    font-family: MadeTommySoft;
+    font-family: 'MadeTommySoft';
     src: url("@/fonts/made_tommy/MADE_TOMMY_Light.otf") format("opentype");
-    font-weight: 300 400;
+    font-weight: 300;
+    font-style: normal;
 }
 
 @font-face {
-    font-family: MadeTommySoft;
+    font-family: 'MadeTommySoft';
     src: url("@/fonts/made_tommy/MADE_TOMMY_Medium.otf") format("opentype");
-    font-weight: 700 800;
+    font-weight: 700;
+    font-style: normal;
 }
 
 @font-face {
-    font-family: MadeTommySoft;
+    font-family: 'MadeTommySoft';
     src: url("@/fonts/made_tommy/MADE_TOMMY_Bold.otf") format("opentype");
     font-weight: 900;
+    font-style: normal;
 }
 
 
