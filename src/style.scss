@@ -277,6 +277,58 @@ footer.public-layout-footer *{
 //Buttons
 //Buttons
 
+.btn.btn-primario{
+
+  background-color: $primario;
+  color: $blanco;
+  font-weight: 100;
+
+}
+
+.btn.btn-primario:hover{
+  background-color: $secundario;
+  color: $blanco;
+}
+
+.btn-outline-primario{
+    @extend .btn;
+    @extend .btn-outline-danger;
+    border-color: $primario !important;
+    color:$primario !important;
+}
+
+.btn-outline-primario:hover{
+  background-color: $primario;
+  color: $blanco !important;
+}
+
+.btn.btn-secundario{
+
+  background-color: $secundario;
+  color: $blanco;
+  font-weight: 100;
+
+}
+
+.btn.btn-secundario:hover{
+  background-color: $primario;
+  color: $blanco;
+}
+
+.btn-outline-secundario{
+    @extend .btn;
+    @extend .btn-outline-danger;
+    border-color: $secundario !important;
+    color:$secundario !important;
+}
+
+.btn-outline-secundario:hover{
+  background-color: $secundario;
+  color: $blanco !important;
+}
+
+
+
 .btn.btn-icon-primario{
   width:56px;
   height:56px;
@@ -343,6 +395,16 @@ footer.public-layout-footer *{
 .btn.btn-icon-complementario i{
   text-decoration: none;
   color: white;
+}
+
+
+.btn-pill {
+    padding: 10px 20px !important;
+    text-align: center !important;
+    display: inline-block !important;
+    margin: 0px 2px !important;
+    cursor: pointer !important;
+    border-radius: 999px !important;
 }
 
 
